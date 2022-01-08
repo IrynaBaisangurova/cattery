@@ -1,17 +1,16 @@
 .body{
     font-family: 'Bruno Ace SC';
 }
-.h1,
-.h2,
-.h3{
-	font-family: Bruno Ace SC;
-}
 .container{
-    max-width: 1720px;
-	margin: 0 auto;
+    max-width: 1390px;
+    display: flex; 
+}
+/* header */
+.header, .section__main{
     background: #030305;
 }
 .header__container{
+    max-width: 1390px;
     display: flex;
     justify-content:flex-end;
     align-items: center;
@@ -19,81 +18,79 @@
 }
 .logo{
     align-items: center;
-    padding-right: 500px;
+    padding-right:640px;
 }
 .header-li{
     display: inline-block;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 .header-li:not(:last-child){
     margin-right: 40px;
 }
-.ul{
-    padding-right: 246px;
-}
+/* .ul{
+    padding-right: 0;
+} */
 .link{
     font-size: 14px;
     line-height: 17px;
     text-decoration: none;
     color: #FFFFFF; 
 }
-.section__container{
-   background: #030305;
+/* section__main */
+.section__main{
    display: flex;
    justify-content: space-evenly;
-   position: relative;
+   position: relative; 
 }
 .polygon{
     position: absolute;
     top: 0;
-    left: 40px;
+    left: 20px;
+    z-index: 2;
 }
 .subtitle{
     font-family: Bruno Ace SC;
-    font-style: normal;
-    font-weight: normal;
     font-size: 48px;
     line-height: 58px;
     color: #030305;
-    top: 40px;
-    left: 100px;
+    top: 30px;
+    left: 80px;
     padding-bottom: 30px;
     position: absolute;
+    z-index: 3;
 }
 .subtitle__all{
     font-family: Bruno Ace SC;
     font-size: 36px;
     line-height: 43px;
     color: #FFFFFF;
-    text-align: end;
-    padding-top: 140px;
-    padding-right: 5px;
+    /* text-align: end; */
+    position: absolute;
+    top: 65px;
+    right: 28px;
 }
 .title{
 	font-family: Bruno Ace SC;
 	font-size: 144px;
-    line-height: 144px;
-    max-width: 1560px;
-    text-align: left;
+    line-height: 174px;
+    /* max-width: 1560px; */
+    text-align: center;
     color: #ffff;
     position: absolute;
-    top: 160px;
-    left: 90px;
+    top: 70px;
+    left: 70px;
+    z-index: 3;
 }
 .image__main{
-  padding-right: 350px;
-  padding-top: 160px;
-}
-.mom{
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-    /* max-width: 1540px; */
+  position: absolute;
+  top: 230px;
+  left: 20px;
+  z-index: 0;
 }
 .button__main{
     display: flex;
-    padding-right: 246px;
+    /* padding-right: 146px; */
 }
 .text__info{
     font-family: Bruno Ace SC;
@@ -102,8 +99,8 @@
     max-width: 298px;
     color: #F3760D;
     position: absolute;
-    top: 820px;
-    left: 670px;
+    top: 690px;
+    left: 640px;
 }
 .button{
     font-family: Bookman Old Style;
@@ -114,7 +111,7 @@
     line-height: 28px;
     font-weight: 600;
     color: #FFFFFF;
-    padding: 18px 36px;
+    padding: 17px 36px;
     background: #F3760D;
     border-radius: 8px;
     cursor: pointer;
@@ -136,5 +133,39 @@
     transition: 1s;
 }
 .button__container{
-    margin-right: 246px;
+    padding-top: 520px;
+    padding-left: 915px;
+    padding-bottom: 434px;
+}
+/* section__about */
+
+.about{
+    background: #030305;
+    display: flex;
+}
+.container__about{
+    max-width: 557px;
+    display: block;
+    margin-left: 70px;
+    margin-right: 40px;
+    padding-bottom: 200px;
+    background: #030305;
+}
+.subtitle__about{
+    font-family: Bruno Ace SC;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    /* padding-top: 20px; */
+    padding-bottom: 80px; 
+}
+.text__about{
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.container__image{
+    padding-top: 140px;
 }
