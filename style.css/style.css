@@ -1,0 +1,140 @@
+.body{
+    font-family: 'Bruno Ace SC';
+}
+.h1,
+.h2,
+.h3{
+	font-family: Bruno Ace SC;
+}
+.container{
+    max-width: 1720px;
+	margin: 0 auto;
+    background: #030305;
+}
+.header__container{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background: #030305;
+}
+.logo{
+    align-items: center;
+    padding-right: 500px;
+}
+.header-li{
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.header-li:not(:last-child){
+    margin-right: 40px;
+}
+.ul{
+    padding-right: 246px;
+}
+.link{
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+.section__container{
+   background: #030305;
+   display: flex;
+   justify-content: space-evenly;
+   position: relative;
+}
+.polygon{
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+.subtitle{
+    font-family: Bruno Ace SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: #030305;
+    top: 40px;
+    left: 100px;
+    padding-bottom: 30px;
+    position: absolute;
+}
+.subtitle__all{
+    font-family: Bruno Ace SC;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    text-align: end;
+    padding-top: 140px;
+    padding-right: 5px;
+}
+.title{
+	font-family: Bruno Ace SC;
+	font-size: 144px;
+    line-height: 144px;
+    max-width: 1560px;
+    text-align: left;
+    color: #ffff;
+    position: absolute;
+    top: 160px;
+    left: 90px;
+}
+.image__main{
+  padding-right: 350px;
+  padding-top: 160px;
+}
+.mom{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    /* max-width: 1540px; */
+}
+.button__main{
+    display: flex;
+    padding-right: 246px;
+}
+.text__info{
+    font-family: Bruno Ace SC;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 298px;
+    color: #F3760D;
+    position: absolute;
+    top: 820px;
+    left: 670px;
+}
+.button{
+    font-family: Bookman Old Style;
+}
+.button{
+    border: none;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 18px 36px;
+    background: #F3760D;
+    border-radius: 8px;
+    cursor: pointer;
+    background:linear-gradient(180deg);
+}
+.button:hover{
+    background:white;
+    color: #F3760D;
+    transition: 1s;
+}
+.call{
+    background:#FFFFFF;
+    color:#F3760D;
+    margin-left: 24px;
+}
+.call:hover{
+    background: #F3760D;
+    color: #FFFFFF;
+    transition: 1s;
+}
+.button__container{
+    margin-right: 246px;
+}
