@@ -1,8 +1,9 @@
 .body{
     font-family: 'Bruno Ace SC';
+    font-family: 'Josefin Sans', sans-serif;
 }
 .container{
-    max-width: 1390px;
+    max-width: 1400px;
     display: flex; 
 }
 /* header */
@@ -88,32 +89,29 @@
   left: 20px;
   z-index: 0;
 }
-.button__main{
-    display: flex;
-    /* padding-right: 146px; */
-}
 .text__info{
     font-family: Bruno Ace SC;
     font-size: 24px;
     line-height: 29px;
-    max-width: 298px;
-    color: #F3760D;
+    max-width: 587px;
+    color: #f37600;
     position: absolute;
-    top: 690px;
-    left: 640px;
+    top: 230px;
+    right: 28px;px;
+    z-index: 3;
 }
 .button{
     font-family: Bookman Old Style;
 }
 .button{
     border: none;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* font-weight: 600; */
     color: #FFFFFF;
-    padding: 17px 36px;
+    padding: 65px 40px;
     background: #F3760D;
-    border-radius: 8px;
+    border-radius: 100%;
     cursor: pointer;
     background:linear-gradient(180deg);
 }
@@ -122,7 +120,7 @@
     color: #F3760D;
     transition: 1s;
 }
-.call{
+/* .call{
     background:#FFFFFF;
     color:#F3760D;
     margin-left: 24px;
@@ -131,11 +129,12 @@
     background: #F3760D;
     color: #FFFFFF;
     transition: 1s;
-}
+} */
 .button__container{
     padding-top: 520px;
-    padding-left: 915px;
+    padding-left: 750px;
     padding-bottom: 434px;
+    /* z-index: 2; */
 }
 /* section__about */
 
@@ -146,26 +145,69 @@
 .container__about{
     max-width: 557px;
     display: block;
-    margin-left: 70px;
+    margin-left: 60px;
     margin-right: 40px;
     padding-bottom: 200px;
     background: #030305;
 }
 .subtitle__about{
     font-family: Bruno Ace SC;
-    font-size: 36px;
-    line-height: 43px;
+    /* font-size: 36px;
+    line-height: 43px; */
+    font-size: 48px;
+    line-height: 58px;
     color: #FFFFFF;
     /* padding-top: 20px; */
     padding-bottom: 80px; 
 }
 .text__about{
+    font-family: Josefin Sans;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
     padding-bottom: 30px;
 }
-
 .container__image{
     padding-top: 140px;
+}
+/* females */
+.container__females{
+    max-width: 1711px;
+    /* display: flex; */
+    background: #030305;
+}
+.subtitle__females{
+    font-family: Bruno Ace SC;
+    /* font-size: 36px;
+    line-height: 43px; */
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+    margin-left: 60px; 
+}
+.container__females-image{
+    display: flex;
+    padding-bottom: 60px;
+}
+.text__females{
+    font-family: Josefin Sans;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 670px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+.text__females-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    /* padding-top: 40px; */
+}
+.container__females-two{
+    display: flex;
+    background: #030305;
+}
+.text__females-two{
+    margin-right: 70px;
 }
