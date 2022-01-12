@@ -13,13 +13,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./style.css/style.css">
+    <link rel="stylesheet" href="./modal.css/modal.css">
 </head>
 <body>
    <header class="header">
        <div class="header__container">
         <div class="logo">
-            <img src="./img/logo2.svg" alt="">
+            <img class="logo_one" src="./img/logo2.svg" alt="">
         </div>
         <ul class="ul">
             <li class="header-li">
@@ -28,39 +30,51 @@
               </a>   
             </li>
             <li class="header-li">
-               <a href="" class="link">
+               <a id="about" href="" class="link">
                 ABOUT US
                </a>
             </li>
             <li class="header-li">
-                <a href="" class="link">
+                <a id="males" href="" class="link">
                 MALES
                 </a>
             </li>
             <li class="header-li">
-                <a href="" class="link">
+                <a id="females" href="" class="link">
                 FEMALES
                 </a>
             </li>
             <li class="header-li">
-                <a href="" class="link">
+                <a id="kittens" href="" class="link">
                 KITTENS
                 </a>
+                <!-- <ul>
+                    <li>
+                    <a class="link-li" href="">
+                        Available
+                    </a>
+                    </li>
+                    <li>
+                        <a class="link-li" href="">
+                            Newborn
+                        </a>
+                    </li>
+                </ul> -->
             </li>
             <li class="header-li">
-                <a href="" class="link">
+                <a id="gallery" href="" class="link">
                 GALLERY
                 </a>
             </li>
             <li class="header-li">
-                <a href="" class="link">
+                <a id="contacts" href="" class="link">
                 CONTACTS
                 </a>
             </li>
            </ul>
        </div>
    </header>
-   <section class="section__main">
+   <section id="main" class="section__main">
        <div class="container">
            <div class="polygon">
                <img src="./img/Polygon 3.png" alt="polygon">
@@ -75,43 +89,111 @@
             Grown with love
            </h1>
             <div class="image__main">
-                <img src="./img/photo 1.png" alt="">
+                <img class="image" src="./img/photo 1.png" alt="">
             </div>
             <h4 class="text__info">
                 Pure Persians CFA, WCF registration
             </h4>
-       </div>
-       <div class="button__container">
-        <button type="submit" class="button">
-         SEND ME
-        </button>
-        <!-- <button type="submit" class="button call">
-         CALL ME
-        </button> -->
-        </div>
+            <div class="button__container">
+                <button id="button"  type="submit" class="button">
+                 SEND ME
+                </button>
+                </div>
+       </div>  
    </section>
-   <section class="about">
+   <section id="our" class="about">
        <div class="container__about">
             <h2 class="subtitle__about">
-                ABOUT US
+                ABOUT US / О НАС
             </h2>
             <p class="text__about">
                 My name is Tatyana Gordeeva. Together with my husband and daughter I live in Ukraine.  I have been breeding Persian cats for over 10 years. Our pets are part of our friendly family.  They receive all our love and care, which they need. Under "Available" you can see if we have kittens. If you are interested, please contact me at the contact information listed on the website. 
-                Thank you for your visit!
+                <span class="colortext"> Thank you for your visit!</span>
+            </p>
             </p>
             <p class="text__about">
-                The Persian cat is one of the most beautiful of all domestic breeds. It is a true aristocrat, which in an incredible way combines an unparalleled appearance, intelligence and regal manners of behavior with an amazing affection and sincere love for its owner. Due to this harmonious combination Persian cat is confidently ahead 
-                in popularity rating of other breeds.
+                Меня зовут Татьяна Гордеева. Вместе с мужем и дочерью
+                 я живу в Украине.  Уже более 10 лет я занимаюсь разведением персидских кошек. Наши питомцы - это часть нашей дружной семьи.  Они получают всю нашу любовь и заботу, в которой нуждаются. В разделе "Доступно" вы можете посмотреть, есть ли у нас котята. Если вы заинтересованы, пожалуйста, свяжитесь со мной по контактной информации, указанной на сайте. 
+                <span class="colortext">  Спасибо за ваш визит! </span>
             </p>
+
        </div>
        <div class="container__image">
             <img src="./img/photo22.png" alt="">
        </div>
    </section>
-   <section class="males">
+   <section class="container__about-two">      
+            <p class="text__about text__about-two">
+                The Persian cat is one of the most beautiful of all domestic breeds. It is a true aristocrat, which in an incredible way combines an unparalleled appearance, intelligence and regal manners of behavior with an amazing affection and sincere love for its owner. Due to this harmonious combination Persian cat is confidently ahead 
+                in popularity rating of other breeds.
+            </p>
+            <p class="text__about  text__about-two">
+                Персидская кошка - одна из самых красивых 
+                среди всех домашних пород. Это настоящий аристократ, в котором невероятным образом сочетаются непревзойденная внешность, интеллект и царственные манеры поведения с удивительной привязанностью и искренней любовью к своему хозяину. Благодаря этому гармоничному сочетанию персидская кошка уверенно лидирует 
+                в рейтинге популярности среди других пород.
+            </p>
+   </section>
+   <!-- секция коты -->
+   <section  id="cat" class="females">
+    <div class="container__females">
+         <h2 class="subtitle__females">
+             MALES / КОТЫ
+         </h2>
+         <div class="container__females-image">
+             <img src="./img/phono31.png" alt="">
+             <div>
+                 <p class="text__females">
+                    Panda Pers Volcano is a top titled producer. 
+                    He is a confident guy, quick and affectionate.
+                     Possessor of good appetite and disposition.
+                </p>
+                 <p class="text__females">
+                     <a class="colortext" href="" class="text__females-link">
+                        Panda Pers Volcano family tree
+                     </a>
+                 </p>
+                 <p class="text__females">
+                    Panda Pers Volcano лучший титулованный производитель. Уверенный в себе парень, шустрый и ласковый. 
+                    Обладатель хорошего аппетита и настроения.
+                 </p>
+                 <p class="text__females">
+                     <a class="colortext" href="" class="text__females-link">
+                         Родословная Panda Pers Volcano
+                     </a
+                    </p>
+                </div>
+         
+         </div>
+        <div class="container__females-two">
+                <div>
+                    <p class="text__females text__females-two">
+                        Sunvuelle Jason Our young, budding daddy. Loving noisy games and pranks. 
+                        But at the same time gentle and affectionate.
+                    </p>
+                    <p class="text__females">
+                        <a class="colortext" href="" class="text__females-link">
+                            Sunvuelle Jason family tree
+                        </a>
+                    </p>
+                    <p class="text__females text__females-two">
+                        Sunvuelle  Джейсон - Наш молодой , начинающий папочка. Любящий 
+                        шумные игры и проказы. Но при этом нежный  и ласковый. 
+                    </p>
+                    <p class="text__females">
+                        <a class="colortext" href="" class="text__females-link">
+                            Родословная Sunvuelle Джейсона.
+                        </a>
+                    </p>
+                </div>
+                <img src="./img/phono32.png" alt="">
+        </div>
+    </div>
+   </section>
+<!-- секция кошки -->
+   <section id="cats" class="females">
        <div class="container__females">
             <h2 class="subtitle__females">
-                FEMALES
+                FEMALES / КОШКИ
             </h2>
             <div class="container__females-image">
                 <img src="./img/photo5.png" alt="">
@@ -121,35 +203,334 @@
                         with a large head, massive body.
                     </p>
                     <p class="text__females">
-                        <a href="" class="text__females-link">
+                        <a class="colortext" href="" class="text__females-link">
                             Avis Rara Ariel family tree
                         </a>
                     </p>
+                    <p class="text__females">
+                        Моя главная персидская девочка, моя любовь Avis Rara Ariel, мать и бабушка моих котят. Можно сказать, основательница питомника. Крупная, мощная кошка, 
+                        с крупной головой, массивным телом.
+                    </p>
+                    <p class="text__females">
+                        <a class="colortext" href="" class="text__females-link">
+                            Родословная Авис Рара Ариэль
+                        </a>
+                    </p>
                 </div>
-            
             </div>
        </div>
        <div class="container__females-two">
-           <div>
-            <p class="text__females text__females-two">
-                Lorem ipsum dolor sit amet consectetur, 
-                adipisicing elit. Blanditiis similique 
-                inventore molestiae vero ea sint nostrum 
-                assumenda ex veritatis doloribus beatae 
-                alias ratione dolor, voluptatum enim eum, culpa et deserunt?
+            <div>
+                <p class="text__females text__females-two">
+                Sunvuelle Marusya is a real Persian Princess. 
+                Caring mother for her kittens, affectionate and gentle cat.
             </p>
             <p class="text__females">
-                <a href="" class="text__females-link">
-                    Blanditiis family tree
+                <a class="colortext" href="" class="text__females-link">
+                    Sunvuelle Marusya family tree
                 </a>
             </p>
-           </div>
+            <p class="text__females text__females-two">
+                Sunvuelle  Маруся - настоящая персидская принцесса. 
+                Заботливая мама для своих котят, ласковая и нежная кошечка.
+            </p>
+            <p class="text__females">
+                <a class="colortext" href="" class="text__females-link">
+                    Родословная Sunvuelle Maруси
+                </a>
+            </p>
+               </div>
            <img src="./img/photo6.png" alt="">
        </div>
-
-
+   </section>
+<!-- cекция Доступно -->
+   <section id="new" class="available">
+    <div class="container__available">
+          <h2 class="subtitle__females" >
+            KITTENS / КОТЯТА
+          </h2>
+          <h3 class="subtitle__available" >
+            AVAILABLE / ДОСТУПНО
+          </h3>
+        <div class="available__items">
+            <div class="grid">
+               <div class="text__grid">
+                   <p class="text__females">
+                 Our very charming girl Daphne. Pure Persian pedigree registration СFA. Line: Panda Pers, Bebybest Cat, D`Eden Lover, Cattilak, Jubileum,
+                 Noblessa, Boberan`s, Kuorri, Candirand`s, Divination
+                   </p>
+                   <p class="text__females">
+                Наша очаровательная девочка Дафна. Чистая персидская родословная регистрация СФА. Линии: Panda Pers, Bebybest Cat, D`Eden Lover, Cattilak, Jubileum, 
+                Noblessa, Boberan`s, Kuorri, Candirand`s, Divination
+                   </p>
+               </div>    
+               <div class="2">
+                   <img class="image__available" src="./img/phono43.png" alt="">
+               </div>
+               <div class="text__grid">
+                   <p class="text__females">
+                    Lovely Persian boy Tim is looking for the most loving home. Very good pedigree, CFA registration. Line: Panda Pers, Bebybest Cat, D`Eden Lover, Cattilak, Jubileum, 
+                    Noblessa, Boberan`s, Kuorri, Candirand`s, Divination
+                   </p>
+                   <p class="text__females">
+                    Прекрасный персидский мальчик Тим ищет самый любящий дом. Очень хорошая родословная, регистрация CFA. Линии: Panda Pers, Bebybest Cat, D`Eden Lover, Cattilak, Jubileum,
+                     Noblessa, Boberan`s, Kuorri, Candirand`s, Divination
+                    </p>
+               </div> 
+               <div class="2">
+                   <img class="image__available" src="./img/phono41.png" alt="">
+               </div>
+               <div class="text__grid">
+                   <p class="text__females">
+                    Lovely Persian boy Tim is looking for the most loving home. Very good pedigree, CFA registration. Line: Panda Pers, Bebybest Cat, D`Eden Lover, Cattilak, Jubileum, 
+                    Noblessa, Boberan`s, Kuorri, Candirand`s, Divination
+                   </p>
+                    <p class="text__females">
+                    Прекрасный персидский мальчик Тим ищет самый любящий дом. Очень хорошая родословная, регистрация CFA. Линии: Panda Pers, Bebybest Cat, D`Eden Lover, Cattilak, Jubileum,
+                     Noblessa, Boberan`s, Kuorri, Candirand`s, Divination
+                    </p>
+                </div> 
+               <div class="2">
+                    <img class="image__available" src="./img/phono42.png" alt="">
+               </div> 
+               <div class="text__grid">
+                   <p class="text__females">
+                    Available Sunvuelle Bruno. Pure Persian kitten male. Еxcellent pedigree. Reg CFA. 7,5 months. 
+                     Results WCF Show - Best of Best Junior, WCF ring is the Best Junior, 1st place!
+                     Smooth head, correct tail, correct bite, 
+                     short body, open sweet look, very good 
+                     character, very friendly boy. <span class="colortext">Sold</span>
+                   </p>
+                   <p class="text__females">
+                    Предлагается Санвуэль Бруно. Чистокровный персидский котенок мужского пола.
+                     Отличная родословная. Рег CFA. 7,5 месяцев. 
+                    Результаты WCF выставки - Best of Best Junior, WCF ринг - лучший юниор, 1 место!
+                     Гладкая голова, правильный хвост, правильный прикус, 
+                     короткое тело, открытый сладкий взгляд, 
+                     очень хороший характер, очень дружелюбный мальчик. <span class="colortext">Продан</span>
+                    </p>
+                </div> 
+                <div class="2">
+                    <img class="image__available" src="./img/phono46.png" alt="">
+                </div> 
+            </div>   
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="newborn">
+    <div class="container__newborn">
+         <h3 class="subtitle__available">
+             NEWBORN / Новорожденные
+         </h3>
+        <div class="text__newborn">
+                <div>
+                    <p class="text__females text__newborn-item">
+                       Kittens are expected in March.
+                        Applications are accepted.
+                    </p>
+                    <p class="text__females text__newborn-item">
+                        You can choose a kitten by reserving it in advance. 
+                        You can also leave a request while waiting for a kitten of 
+                        the desired color and sex. Kittens mostly leave the cattery
+                        at the age of 4-6 months after spaying, but there is a possibility to sell kittens 
+                        for pedigree breeding as well. Delivery of kittens to their 
+                        future owners worldwide.At the same time, the kitten is accompanied by all necessary documents: pedigree, veterinary passport with a vaccination mark, contract, as well 
+                        as recommendations for further care.
+                    </p>
+                </div>
+                <div>
+                <p class="text__females text__newborn-item">
+                        Котята ожидаются в марте. 
+                        Заявки принимаются.
+               </p>
+               <p class="text__females text__newborn-item">
+                       Вы можете выбрать  котенка, 
+                     предварительно его зарезервировав.
+                      Также вы можете оставить заявку  
+                    в ожидании рождения котенка нужного 
+                    вам пола и окраса. Котята в основном 
+                    покидают питомник в возрасте 4-6 месяцев,
+                    после стерилизации, но есть возможность продажи котят и в племенное разведение. Доставка котят к их будущим владельцам  по всему миру. При этом котенка сопровождают все необходимые его документы: родословная, ветеринарный паспорт с отметками о вакцинациях, договор,
+                    а также  рекомендации по дальнейшему уходу.
+              </p>
+           </div>
+        </div>
+    </div>
    </section>
 
-    
+<!-- ГАЛЕРЕЯ -->
+   <section id="photo" class="gallery">
+       <h2 class="subtitle__gallery">
+        GALLERY / ГАЛЕРЕЯ
+       </h2>
+    <div class="slider">
+        <div class="slider__item">
+            <img src="./img/photo51.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo52.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo53.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo54.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo55.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo56.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo57.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo58.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo59.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo60.png" alt="">
+        </div>
+        <div class="slider__item">
+            <img src="./img/photo62.png" alt="">
+        </div>
+    </div>
+   </section>
+<!-- КОНТАКТЫ -->
+   <section id="phone" class="contacts">
+       <h2 class="subtitle__females subtitle__contacts">
+            CONTACTS / КОНТАКТЫ
+        </h2>
+    <div class="container__contacts">
+          <div class="container__form">
+            <h3 class=" text__contacts">
+                Contact Me
+            </h3>
+            <form action="#" method="post">
+            <div class="input">
+                <input class="placeholder" placeholder="your name / ваше имя" type="text" name="Username" value="">
+            </div> 
+            <div class="input">
+                <input class="placeholder" placeholder="your email / ваша почта"  type="email" name="email" id="" value="">
+            </div>
+            <div class="input">
+                <textarea class="placeholder" name="" id="">Your message / Ваше сообщение</textarea>
+            </div>
+            <div>
+            <button class="button button__contacts" type="submit">
+                SEND ME</button>        
+             </form>
+           </div>
+    </div>
+    <div class="container__communication">
+        <div class="communication">
+        <img class="image__contacts" src="./img/instagram.svg" alt="">
+        <a class="text__communication" href="https://www.instagram.com/sunvuelle.pers.cattery/">
+            @sunvuelle.pers.cattery
+        </a>
+        </div>
+        <div class="communication">
+        <img class="image__contacts" src="./img/facebook-square.svg" alt="">
+        <a class="text__communication" href="https://www.facebook.com/profile.php?id=100015570668044">
+            Tatiana Gordeeva
+        </a>
+        </div>
+        <div class="communication">
+        <img class="image__contacts"src="./img/facebook-messenger.svg" alt="">
+        <a class="text__communication" href="https://www.facebook.com/messages/t/100015570668044">
+            Tatiana Gordeeva
+        </a>
+        </div>
+        <div class="communication">
+        <img class="image__contacts" src="./img/telegram-plane.svg" alt="">
+         <a class="text__communication" href="https://t.me/BaisanIrina">
+            @Tatiana Gordeeva
+         </a>
+        </div>
+         <div class="communication">
+         <img class="image__contacts" src="./img/entypo_email.svg" alt="">
+         <a class="text__communication" href="mailto:laudaeren@ukr.net">
+            info@gmail.com
+        </a>
+        </div>
+         <div class="communication">
+            <img class="image__contacts" src="./img/phone-alt.svg" alt="">
+            <a class="text__communication" href="tel:+380679592012">
+                +380 67  959 20 12
+             </a>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container__footer">
+        <h3 class="subtitle__footer">
+            Sunvuelle cattery
+        </h3>
+        <div class="footer__item">
+        <!-- <div>
+            <img src="./img/photofooter.png" alt="">
+        </div> -->
+        <div>
+            <img class="image__footer" src="./img/Business Card (88.9x50.8 mm).png" alt="">
+        </div>
+        </div>
+        <div class="footer__menu">
+           <div class="logo logo__footer">
+            <img id="home" class="logo_one" src="./img/logo2.svg" alt="">
+            </div>
+             <ul class="ul">
+            <li class="header-li">
+              <a id="home" href="" class="link">
+                HOME
+              </a>   
+            </li>
+            <li class="header-li">
+               <a id="about" href="" class="link">
+                ABOUT US
+               </a>
+            </li>
+            <li class="header-li">
+                <a id="males" href="" class="link">
+                MALES
+                </a>
+            </li>
+            <li class="header-li">
+                <a id="females" href="" class="link">
+                FEMALES
+                </a>
+            </li>
+            <li class="header-li">
+                <a id="kittens" href="" class="link">
+                KITTENS
+                </a>
+            </li>
+            <li class="header-li">
+                <a id="gallery" href="" class="link">
+                GALLERY
+                </a>
+            </li>
+            <li class="header-li">
+                <a id="contacts" href="" class="link">
+                CONTACTS
+                </a>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+<div id="up">
+    <i class="fas fa-chevron-up"></i>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="./script.js/slick.min.js">
+<script src="./script.js/slick.min.js"></script>
+<script src="./script.js/script.js"></script>
+<script src="./script.js/modal.js"></script>  
 </body>
 </html>
