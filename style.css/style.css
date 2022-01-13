@@ -3,7 +3,7 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 .container{
-    max-width: 1400px;
+    max-width: 1390px;
     display: flex; 
     margin: 0 auto;
 }
@@ -172,7 +172,7 @@
 }
 .container__about-two{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: left;
     padding-bottom: 250px;
     background: #030305;
@@ -181,6 +181,7 @@
     color: #f37600;
 }
 .text__about-two{
+    max-width: 640px;
     padding-left: 60px;
 }
 .container__image{
@@ -231,16 +232,19 @@
 .text__females-two{
     margin-right: 70px;
 }
-.container__available{
-    max-width: 1711px;
+.kittens{
     background: #030305;
+}
+.container__kittens{
+    max-width: 1390px;
+    margin: 0 auto;
     padding-bottom: 250px;
 }
-.available__items{
+/* .kittens__items{
     display: flex;
     justify-content: center;
-}
-.subtitle__available{
+} */
+.subtitle__kittens{
     font-family: Bruno Ace SC;
     font-size: 24px;
     line-height: 29px;
@@ -258,9 +262,12 @@
     max-width: 580px;
     padding-right: 50px;
 }
-.container__newborn{
-    max-width: 1711px;
+.newborn{
     background: #030305;
+}
+.container__newborn{
+    max-width: 1390px;
+    margin: 0 auto;
     padding-bottom: 250px;
 }
 .text__newborn{
@@ -403,9 +410,12 @@
     color: #030305;
     padding-left: 20px;
 }
+.footer{
+    background: #030305;
+}
 .container__footer{
     max-width: 1600px;
-    background: #030305;
+   
     padding-bottom: 70px;
     position: relative;
 }
