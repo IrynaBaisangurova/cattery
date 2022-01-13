@@ -18,6 +18,11 @@
     align-items: center;
     background: #030305;
 }
+.header__sticky{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
 .logo{
     align-items: center;
     padding-right:600px;
@@ -316,7 +321,7 @@
     align-items: center;
     justify-content: center;
 } 
-.slick-dots{
+.slick-dots li{
     list-style: none;
 } 
 .slick-dots button{ 

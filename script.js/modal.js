@@ -12,7 +12,7 @@ $(window).scroll(function(){
 
   $('#button').on('click', function(e){
     e.preventDefault();
-    $('html, body').animate({scrollTop: $('#contacts').offset().top},500);
+    $('html, body').animate({scrollTop: $('#phone').offset().top},500);
 })
 
   $('#home').on('click', function(e){
